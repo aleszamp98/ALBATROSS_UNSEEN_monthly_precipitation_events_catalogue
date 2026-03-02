@@ -65,10 +65,7 @@ Details about the three statistical tests performed to select reforecast ensembl
 - Laura Sandra Leo, University of Bologna
 
 ### References
-- ​​Bianco, E., Davini, P., Zappa, G., Manzato, A., Giordani, A., & Ruggieri, P. (2026). A framework for generating catalogues of high-impact UNSEEN flood events. Climate Services, 42, 100636. https://doi.org/10.1016/j.cliser.2026.100636 
-
-​- Buccellato, M., Ruggieri, P., & Porcù, F. (2026). Seasonal hindcasts to assess the hazard of meteorological drought over Europe: A multimodel approach. Quarterly Journal of the Royal Meteorological Society. https://doi.org/10.1002/qj.70076 
-
+- ​​Bianco, E., Davini, P., Zappa, G., Manzato, A., Giordani, A., & Ruggieri, P. (2026). A framework for generating catalogues of high-impact UNSEEN flood events. Climate Services, 42, 100636. https://doi.org/10.1016/j.cliser.2026.100636
+​- Buccellato, M., Ruggieri, P., & Porcù, F. (2026). Seasonal hindcasts to assess the hazard of meteorological drought over Europe: A multimodel approach. Quarterly Journal of the Royal Meteorological Society. https://doi.org/10.1002/qj.70076
 - ​Kelder, T., Marjoribanks, T. I., Slater, L. J., Prudhomme, C., Wilby, R. L., Wagemann, J., & Dunstone, N. (2022). An open workflow to gain insights about low‐likelihood high‐impact weather events from initialized predictions. Meteorological Applications, 29(3). https://doi.org/10.1002/met.2065 
-
 - ​Thompson, V., Dunstone, N. J., Scaife, A. A., Smith, D. M., Slingo, J. M., Brown, S., & Belcher, S. E. (2017). High risk of unprecedented UK rainfall in the current climate. Nature Communications, 8(1), 107. https://doi.org/10.1038/s41467-017-00275-3 
