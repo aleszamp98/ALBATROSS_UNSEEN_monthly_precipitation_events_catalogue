@@ -9,8 +9,8 @@ The resulting validated dataset, through the provided unique identifiers, facili
 This catalogue is provided as a tabular dataset containing simulated monthly means of daily precipitation rates based on a locally-validated seasonal forecast system for the Kumasi Hub and the Keta Basin Hub, focusing on the months of May and June (Ghana’s rainy season). The dataset is generated using the "reforecast ensemble pooling" methodology ​(Thompson et al., 2017)​ applied to the ECMWF SEAS5 full ensemble dynamical seasonal forecasts (1993–2016), incorporating all six available lead times. 
 
 Each entry in the catalogue represents a specific event and includes:
-- The monthly averaged daily precipitation rate, simulated at the model grid point closest to the Kumasi Hub, in units [mm/day]. 
-- The estimated return period of the event, expressed in [years]. 
+- The monthly averaged daily precipitation rate, simulated at the model grid point closest to the Kumasi Hub, in units (mm/day). 
+- The estimated return period of the event, expressed in (years). 
 - A unique identifier (unseen_id) specifying the initialization month, the ensemble member, and the reference date. 
 
 Raw ECMWF SEAS5 total precipitation rate data for all initialization months (1993–2016) were retrieved from the Copernicus Climate Change Service (C3S) Climate Data Store (CDS) (https://cds.climate.copernicus.eu/). To ensure the reliability of the UNSEEN (Unprecedented Simulated Extremes Using Ensembles) extraction, the dataset underwent statistical validation as described in  (Buccellato et al., 2026; Kelder et al., 2022)  . Three tests were performed on the May and June data across different lead times: independence, stability and fidelity tests. 
@@ -40,7 +40,7 @@ The dataset is provided as a standard .csv file. It can be inspected using progr
 To load and analyze the dataset, simple Python scripts with the pandas library can be used. Ensure pandas is installed (e.g., via pip install pandas) before running the following script: 
 ```
 import pandas as pd  
-file_path = 'path/to/your/catalogue.csv'  
+file_path = 'path/to/your/UNSEEN_Kumasi_top100.csv'  
 df = pd.read_csv(file_path, sep=';') 
 print(df.head())
 ``` 
@@ -62,4 +62,13 @@ Details about the three statistical tests performed to select reforecast ensembl
 ### Authors' Contacts:
 - Alessandro Zampella, University of Bologna, alessandro.zampella2@unibo.it 
 - Paolo Ruggieri, University of Bologna 
-- Laura Sandra Leo, University of Bologna 
+- Laura Sandra Leo, University of Bologna
+
+### References
+- ​​Bianco, E., Davini, P., Zappa, G., Manzato, A., Giordani, A., & Ruggieri, P. (2026). A framework for generating catalogues of high-impact UNSEEN flood events. Climate Services, 42, 100636. https://doi.org/10.1016/j.cliser.2026.100636 
+
+​- Buccellato, M., Ruggieri, P., & Porcù, F. (2026). Seasonal hindcasts to assess the hazard of meteorological drought over Europe: A multimodel approach. Quarterly Journal of the Royal Meteorological Society. https://doi.org/10.1002/qj.70076 
+
+- ​Kelder, T., Marjoribanks, T. I., Slater, L. J., Prudhomme, C., Wilby, R. L., Wagemann, J., & Dunstone, N. (2022). An open workflow to gain insights about low‐likelihood high‐impact weather events from initialized predictions. Meteorological Applications, 29(3). https://doi.org/10.1002/met.2065 
+
+- ​Thompson, V., Dunstone, N. J., Scaife, A. A., Smith, D. M., Slingo, J. M., Brown, S., & Belcher, S. E. (2017). High risk of unprecedented UK rainfall in the current climate. Nature Communications, 8(1), 107. https://doi.org/10.1038/s41467-017-00275-3 
